@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgba(20, 160, 219, 1);
+  }
+  
+  body, button{
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  div{
+    margin:20%;
+  }
+  
+  h1{
+    font-size: 4em;
+  }
+  
+  button{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    background-color: white;
+    font-weight: 700;
+  }
+  
+  button:hover{
+    background-color: rgba(219, 80, 20, 1);
+  }
+  
+  button:active{
+    outline-style: groove black;
+  }
+  
+  p{
+    font-size:2em;
+  }
+  #name {
+    font-size:3.5em;
+    display:inline;
+  }
